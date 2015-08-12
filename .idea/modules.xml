@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Android-HorizontalListView-master/AndroidHorizontalListView/AndroidHorizontalListView.iml" filepath="$PROJECT_DIR$/../Android-HorizontalListView-master/AndroidHorizontalListView/AndroidHorizontalListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LazyList-master/LazyList-master.iml" filepath="$PROJECT_DIR$/../LazyList-master/LazyList-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmsService.iml" filepath="$PROJECT_DIR$/SmsService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../cardboard-java-master/CardboardSample/src/main/main.iml" filepath="$PROJECT_DIR$/../cardboard-java-master/CardboardSample/src/main/main.iml" />
+    </modules>
+  </component>
+</project>

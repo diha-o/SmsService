@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:layout_weight="1" android:id="@+id/ll">
+        <com.google.vrtoolkit.cardboard.CardboardView
+                android:id="@+id/cardboard_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true" android:visibility="gone"/>
+
+        <com.google.vrtoolkit.cardboard.samples.treasurehunt.CardboardOverlayView
+                android:id="@+id/overlay"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" android:visibility="visible"/>
+        <VideoView android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/videoView"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_alignParentTop="true"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentBottom="true"
+                />
+        <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="150dp" android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true" android:layout_marginBottom="20dp">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:id="@+id/by_anim" android:visibility="gone">
+                <com.meetme.android.horizontal.HorizontalListView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:widget="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/listview2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:clickable="true" android:layout_weight="1" android:layout_marginRight="8dp"/>
+                <com.meetme.android.horizontal.HorizontalListView
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        xmlns:widget="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/listview"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:smoothScrollbar="true"
+                        android:clickable="true"  android:layout_weight="1"
+
+                        android:layout_marginLeft="8dp" android:alpha="50"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

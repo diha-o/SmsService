@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <proGuardCfgFiles>
+          <file>file://C:/Program Files/Java/jdk1.7.0_79/tools/proguard/proguard-android.txt</file>
+        </proGuardCfgFiles>
+        <option name="UPDATE_PROPERTY_FILES" value="true" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/picasso-2.4.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="libs1" level="project" />
+    <orderEntry type="library" exported="" name="libs2" level="project" />
+    <orderEntry type="library" exported="" name="gradle-wrapper" level="project" />
+    <orderEntry type="library" exported="" name="fastjson-1.1.37" level="project" />
+    <orderEntry type="library" exported="" name="gradle-wrapper2" level="project" />
+    <orderEntry type="library" exported="" name="gradle-wrapper1" level="project" />
+    <orderEntry type="library" exported="" name="libs" level="project" />
+    <orderEntry type="module" module-name="AndroidHorizontalListView" exported="" />
+    <orderEntry type="module" module-name="main" exported="" />
+    <orderEntry type="module" module-name="LazyList-master" exported="" />
+  </component>
+</module>
